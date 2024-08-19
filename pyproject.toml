@@ -7,6 +7,10 @@ authors = [
 ]
 dependencies = [
     "fastapi[standard]>=0.112.1",
+    "sqlmodel>=0.0.21",
+    "psycopg2>=2.9.9",
+    "pydantic-settings>=2.4.0",
+    "pydantic>=2.8.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
